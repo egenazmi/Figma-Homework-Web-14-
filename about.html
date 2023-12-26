@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/about-style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="logo">
+            <div class="logo-img-area">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="50" viewBox="0 0 44 50" fill="none">
+                    <g clip-path="url(#clip0_106_3857)">
+                        <path
+                            d="M42.5781 46.875H40.625V2.34375C40.625 1.04932 39.5757 0 38.2812 0H5.46875C4.17432 0 3.125 1.04932 3.125 2.34375V46.875H1.17188C0.524707 46.875 0 47.3997 0 48.0469V50H43.75V48.0469C43.75 47.3997 43.2253 46.875 42.5781 46.875ZM12.5 7.42188C12.5 6.77471 13.0247 6.25 13.6719 6.25H17.5781C18.2253 6.25 18.75 6.77471 18.75 7.42188V11.3281C18.75 11.9753 18.2253 12.5 17.5781 12.5H13.6719C13.0247 12.5 12.5 11.9753 12.5 11.3281V7.42188ZM12.5 16.7969C12.5 16.1497 13.0247 15.625 13.6719 15.625H17.5781C18.2253 15.625 18.75 16.1497 18.75 16.7969V20.7031C18.75 21.3503 18.2253 21.875 17.5781 21.875H13.6719C13.0247 21.875 12.5 21.3503 12.5 20.7031V16.7969ZM17.5781 31.25H13.6719C13.0247 31.25 12.5 30.7253 12.5 30.0781V26.1719C12.5 25.5247 13.0247 25 13.6719 25H17.5781C18.2253 25 18.75 25.5247 18.75 26.1719V30.0781C18.75 30.7253 18.2253 31.25 17.5781 31.25ZM25 46.875H18.75V38.6719C18.75 38.0247 19.2747 37.5 19.9219 37.5H23.8281C24.4753 37.5 25 38.0247 25 38.6719V46.875ZM31.25 30.0781C31.25 30.7253 30.7253 31.25 30.0781 31.25H26.1719C25.5247 31.25 25 30.7253 25 30.0781V26.1719C25 25.5247 25.5247 25 26.1719 25H30.0781C30.7253 25 31.25 25.5247 31.25 26.1719V30.0781ZM31.25 20.7031C31.25 21.3503 30.7253 21.875 30.0781 21.875H26.1719C25.5247 21.875 25 21.3503 25 20.7031V16.7969C25 16.1497 25.5247 15.625 26.1719 15.625H30.0781C30.7253 15.625 31.25 16.1497 31.25 16.7969V20.7031ZM31.25 11.3281C31.25 11.9753 30.7253 12.5 30.0781 12.5H26.1719C25.5247 12.5 25 11.9753 25 11.3281V7.42188C25 6.77471 25.5247 6.25 26.1719 6.25H30.0781C30.7253 6.25 31.25 6.77471 31.25 7.42188V11.3281Z"
+                            fill="#FEFEFE" />
+                    </g>
+                    <defs>
+                        <clippath id="clip0_106_3857">
+                            <rect width="43.75" height="50" fill="white" />
+                        </clippath>
+                    </defs>
+                </svg>
+            </div>
+            <div class="logo-text-area">
+                <h5 class="logo-title">ARCH.</h5>
+                <p class="logo-text">Interior & Architectur</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link"><a href="index.html">Home</a></li>
+            <li class="nav-link"><a href="about.html">About</a></li>
+            <li class="nav-link"><a href="project.html">Project+</a></li>
+            <li class="nav-link"><a href="price.html">Price</a></li>
+            <li class="nav-link"><a href="ourteams.html">Team</a></li>
+            <li class="nav-link"><a href="contact.html">Contact</a></li>
+            <li class="nav-link"><a href="blog.html">Blog+</a></li>
+        </ul>
+        <div class="phone-area">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
+                <g clip-path="url(#clip0_106_3859)">
+                    <path
+                        d="M34.0013 25.2313L26.345 21.9501C26.018 21.8107 25.6545 21.7813 25.3092 21.8664C24.964 21.9514 24.6558 22.1463 24.431 22.4217L21.0403 26.5643C15.7191 24.0554 11.4367 19.773 8.92773 14.4517L13.0703 11.0611C13.3463 10.8367 13.5416 10.5284 13.6267 10.1831C13.7118 9.83769 13.6821 9.474 13.542 9.14704L10.2607 1.49079C10.107 1.13833 9.83512 0.850564 9.49194 0.677104C9.14876 0.503644 8.75582 0.455365 8.38086 0.540591L1.27148 2.18122C0.909979 2.2647 0.587443 2.46824 0.356518 2.75864C0.125593 3.04903 -8.32761e-05 3.40912 4.13998e-08 3.78014C4.13998e-08 21.3143 14.2119 35.4989 31.7188 35.4989C32.0899 35.4991 32.4501 35.3735 32.7407 35.1426C33.0312 34.9116 33.2349 34.589 33.3184 34.2274L34.959 27.118C35.0437 26.7412 34.9944 26.3467 34.8196 26.0024C34.6448 25.658 34.3554 25.3854 34.0013 25.2313Z"
+                        fill="#FEFEFE" />
+                </g>
+                <defs>
+                    <clippath id="clip0_106_3859">
+                        <rect width="35" height="35" fill="white" transform="translate(0 0.5)" />
+                    </clippath>
+                </defs>
+            </svg>
+            <div class="phone-text-area">
+                <p class="phone-text">
+                    Phone Number
+                </p>
+                <p class="phone-number">+62 899 7789</p>
+
+            </div>
+        </div>
+    </header>
+    <div id="banner">
+        <div class="container">
+            <h1 class="page-title margin-auto text-center">
+                About Us
+            </h1>
+            <h4 class="page-subtitle text-center">Home / About Us</h4>
+
+            <div class="container">
+                <div class="banner-cards mt187">
+                    <div class="banner-card background-white">
+                        <div class="wp2-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="114" height="100" viewBox="0 0 114 100"
+                                fill="none">
+                                <g clip-path="url(#clip0_106_3727)">
+                                    <path
+                                        d="M110.125 12.5C111.852 12.5 113.25 11.1016 113.25 9.375V3.125C113.25 1.39844 111.852 0 110.125 0H3.875C2.14844 0 0.75 1.39844 0.75 3.125V9.375C0.75 11.1016 2.14844 12.5 3.875 12.5H6.99609V87.5H3.875C2.14844 87.5 0.75 88.8984 0.75 90.625V96.875C0.75 98.6016 2.14844 100 3.875 100H50.75V84.375C50.75 82.6562 52.1562 81.25 53.875 81.25H60.125C61.8438 81.25 63.25 82.6562 63.25 84.375V100H110.125C111.852 100 113.25 98.6016 113.25 96.875V90.625C113.25 88.8984 111.852 87.5 110.125 87.5H107V12.5H110.125ZM50.75 21.25C50.75 20 52 18.75 53.25 18.75H60.75C62 18.75 63.25 20 63.25 21.25V28.75C63.25 30 62 31.25 60.75 31.25H53.25C52 31.25 50.75 30 50.75 28.75V21.25ZM50.75 40C50.75 38.75 52 37.5 53.25 37.5H60.75C62 37.5 63.25 38.75 63.25 40V47.5C63.25 48.75 62 50 60.75 50H53.25C52 50 50.75 48.75 50.75 47.5V40ZM25.75 21.25C25.75 20 27 18.75 28.25 18.75H35.75C37 18.75 38.25 20 38.25 21.25V28.75C38.25 30 37 31.25 35.75 31.25H28.25C27 31.25 25.75 30 25.75 28.75V21.25ZM35.75 50H28.25C27 50 25.75 48.75 25.75 47.5V40C25.75 38.75 27 37.5 28.25 37.5H35.75C37 37.5 38.25 38.75 38.25 40V47.5C38.25 48.75 37 50 35.75 50ZM38.25 75C38.25 64.6445 46.6445 56.25 57 56.25C67.3555 56.25 75.75 64.6445 75.75 75H38.25ZM88.25 47.5C88.25 48.75 87 50 85.75 50H78.25C77 50 75.75 48.75 75.75 47.5V40C75.75 38.75 77 37.5 78.25 37.5H85.75C87 37.5 88.25 38.75 88.25 40V47.5ZM88.25 28.75C88.25 30 87 31.25 85.75 31.25H78.25C77 31.25 75.75 30 75.75 28.75V21.25C75.75 20 77 18.75 78.25 18.75H85.75C87 18.75 88.25 20 88.25 21.25V28.75Z"
+                                        fill="#00272B" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_106_3727">
+                                        <rect width="112.5" height="100" fill="white" transform="translate(0.75)" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="box-text-area mt32">
+                            <div class="box-head width100">Service
+                                Ipsum</div>
+                            <div class="box-text">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor.</div>
+                        </div>
+                    </div>
+                    <div class="banner-card background-white ">
+                        <div class="wp2-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="126" height="100" viewBox="0 0 126 100"
+                                fill="none">
+                                <g clip-path="url(#clip0_106_3585)">
+                                    <path
+                                        d="M0.5 43.75V96.875C0.5 98.6016 1.89844 100 3.625 100H19.25V37.5H6.75C3.29883 37.5 0.5 40.2988 0.5 43.75ZM70.8125 34.375H66.125V26.5625C66.125 25.6992 65.4258 25 64.5625 25H61.4375C60.5742 25 59.875 25.6992 59.875 26.5625V39.0625C59.875 39.9258 60.5742 40.625 61.4375 40.625H70.8125C71.6758 40.625 72.375 39.9258 72.375 39.0625V35.9375C72.375 35.0742 71.6758 34.375 70.8125 34.375ZM97.7168 21.8828L66.4668 1.04884C65.44 0.364922 64.2338 0 63 0C61.7662 0 60.56 0.364922 59.5332 1.04884L28.2832 21.8828C27.4272 22.4535 26.7254 23.2266 26.2399 24.1336C25.7544 25.0405 25.5002 26.0533 25.5 27.0821V100H50.5V71.875C50.5 70.1485 51.8984 68.75 53.625 68.75H72.375C74.1016 68.75 75.5 70.1485 75.5 71.875V100H100.5V27.084C100.5 24.9942 99.4551 23.041 97.7168 21.8828ZM63 50C54.3711 50 47.375 43.0039 47.375 34.375C47.375 25.7461 54.3711 18.75 63 18.75C71.6289 18.75 78.625 25.7461 78.625 34.375C78.625 43.0039 71.6289 50 63 50ZM119.25 37.5H106.75V100H122.375C124.102 100 125.5 98.6016 125.5 96.875V43.75C125.5 40.2988 122.701 37.5 119.25 37.5Z"
+                                        fill="#00272B" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_106_3585">
+                                        <rect width="125" height="100" fill="white" transform="translate(0.5)" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="box-text-area mt32">
+                            <div class="box-head  width100">Service
+                                Ipsum</div>
+                            <div class="box-text">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed
+                                do eiusmod
+                                tempor.</div>
+                        </div>
+                    </div>
+                    <div class="banner-card background-white">
+                        <div class="wp2-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="88" height="100" viewBox="0 0 88 100"
+                                fill="none">
+                                <g clip-path="url(#clip0_106_3723)">
+                                    <path
+                                        d="M85.4062 93.75H81.5V4.6875C81.5 2.09863 79.4014 0 76.8125 0H11.1875C8.59863 0 6.5 2.09863 6.5 4.6875V93.75H2.59375C1.29941 93.75 0.25 94.7994 0.25 96.0938V100H87.75V96.0938C87.75 94.7994 86.7006 93.75 85.4062 93.75ZM25.25 14.8438C25.25 13.5494 26.2994 12.5 27.5938 12.5H35.4062C36.7006 12.5 37.75 13.5494 37.75 14.8438V22.6562C37.75 23.9506 36.7006 25 35.4062 25H27.5938C26.2994 25 25.25 23.9506 25.25 22.6562V14.8438ZM25.25 33.5938C25.25 32.2994 26.2994 31.25 27.5938 31.25H35.4062C36.7006 31.25 37.75 32.2994 37.75 33.5938V41.4062C37.75 42.7006 36.7006 43.75 35.4062 43.75H27.5938C26.2994 43.75 25.25 42.7006 25.25 41.4062V33.5938ZM35.4062 62.5H27.5938C26.2994 62.5 25.25 61.4506 25.25 60.1562V52.3438C25.25 51.0494 26.2994 50 27.5938 50H35.4062C36.7006 50 37.75 51.0494 37.75 52.3438V60.1562C37.75 61.4506 36.7006 62.5 35.4062 62.5ZM50.25 93.75H37.75V77.3438C37.75 76.0494 38.7994 75 40.0938 75H47.9062C49.2006 75 50.25 76.0494 50.25 77.3438V93.75ZM62.75 60.1562C62.75 61.4506 61.7006 62.5 60.4062 62.5H52.5938C51.2994 62.5 50.25 61.4506 50.25 60.1562V52.3438C50.25 51.0494 51.2994 50 52.5938 50H60.4062C61.7006 50 62.75 51.0494 62.75 52.3438V60.1562ZM62.75 41.4062C62.75 42.7006 61.7006 43.75 60.4062 43.75H52.5938C51.2994 43.75 50.25 42.7006 50.25 41.4062V33.5938C50.25 32.2994 51.2994 31.25 52.5938 31.25H60.4062C61.7006 31.25 62.75 32.2994 62.75 33.5938V41.4062ZM62.75 22.6562C62.75 23.9506 61.7006 25 60.4062 25H52.5938C51.2994 25 50.25 23.9506 50.25 22.6562V14.8438C50.25 13.5494 51.2994 12.5 52.5938 12.5H60.4062C61.7006 12.5 62.75 13.5494 62.75 14.8438V22.6562Z"
+                                        fill="#00272B" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_106_3723">
+                                        <rect width="87.5" height="100" fill="white" transform="translate(0.25)" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="box-text-area mt32">
+                            <div class="box-head width100">Service
+                                Ipsum</div>
+                            <div class="box-text">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor.</div>
+                        </div>
+                    </div>
+                    <div class="banner-card background-white">
+                        <div class="wp2-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="114" height="100" viewBox="0 0 114 100"
+                                fill="none">
+                                <g clip-path="url(#clip0_106_3721)">
+                                    <path
+                                        d="M55.5107 28.9563L19.501 58.6145V90.6243C19.501 91.4531 19.8302 92.2479 20.4163 92.834C21.0023 93.42 21.7972 93.7493 22.626 93.7493L44.5127 93.6926C45.3388 93.6885 46.1296 93.3574 46.7123 92.7718C47.295 92.1862 47.6221 91.3937 47.6221 90.5676V71.8743C47.6221 71.0455 47.9513 70.2506 48.5374 69.6646C49.1234 69.0785 49.9183 68.7493 50.7471 68.7493H63.2471C64.0759 68.7493 64.8707 69.0785 65.4568 69.6646C66.0428 70.2506 66.3721 71.0455 66.3721 71.8743V90.554C66.3708 90.9652 66.4507 91.3726 66.6071 91.7528C66.7636 92.1331 66.9936 92.4788 67.2839 92.77C67.5742 93.0612 67.9191 93.2923 68.2989 93.4499C68.6787 93.6076 69.0859 93.6887 69.4971 93.6887L91.376 93.7493C92.2048 93.7493 92.9996 93.42 93.5857 92.834C94.1717 92.2479 94.501 91.4531 94.501 90.6243V58.593L58.499 28.9563C58.0758 28.6151 57.5485 28.4291 57.0049 28.4291C56.4613 28.4291 55.934 28.6151 55.5107 28.9563ZM112.392 49.1145L96.0635 35.6555V8.60278C96.0635 7.98118 95.8166 7.38504 95.377 6.9455C94.9375 6.50596 94.3413 6.25903 93.7197 6.25903H82.7822C82.1606 6.25903 81.5645 6.50596 81.1249 6.9455C80.6854 7.38504 80.4385 7.98118 80.4385 8.60278V22.7844L62.9521 8.39771C61.2741 7.01681 59.1683 6.26179 56.9951 6.26179C54.8219 6.26179 52.7162 7.01681 51.0381 8.39771L1.59863 49.1145C1.3613 49.3107 1.16495 49.5517 1.02079 49.8237C0.876636 50.0958 0.787501 50.3936 0.758481 50.7001C0.72946 51.0067 0.761122 51.3159 0.851659 51.6102C0.942195 51.9045 1.08983 52.1781 1.28613 52.4153L6.2666 58.47C6.46236 58.708 6.70316 58.9051 6.97519 59.05C7.24722 59.1948 7.54516 59.2846 7.85193 59.3142C8.15871 59.3438 8.46831 59.3125 8.76301 59.2223C9.0577 59.1321 9.33171 58.9846 9.56933 58.7883L55.5107 20.9485C55.934 20.6073 56.4613 20.4213 57.0049 20.4213C57.5485 20.4213 58.0758 20.6073 58.499 20.9485L104.442 58.7883C104.68 58.9846 104.953 59.1323 105.247 59.2228C105.542 59.3133 105.851 59.345 106.158 59.316C106.464 59.287 106.762 59.1978 107.034 59.0537C107.306 58.9095 107.547 58.7132 107.743 58.4758L112.724 52.4211C112.92 52.1826 113.067 51.9076 113.156 51.612C113.246 51.3164 113.276 51.0061 113.245 50.6988C113.214 50.3915 113.123 50.0934 112.976 49.8215C112.83 49.5496 112.631 49.3093 112.392 49.1145Z"
+                                        fill="#00272B" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_106_3721">
+                                        <rect width="112.5" height="100" fill="white" transform="translate(0.75)" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="box-text-area mt32">
+                            <div class="box-head width100">Service
+                                Ipsum</div>
+                            <div class="box-text">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-left">
+                    <h4 class="section-title about-title">
+                        ABOUT US
+                    </h4>
+                    <p class="section-text about-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint
+                        occaecat cupidatat non proiden.
+                    </p>
+                    <div class="about-btn">
+                        <p class="about-btn-text">Design Your Package</p>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-number-cards">
+                        <div class="about-number-card">
+                            <div class="about-number">35+</div>
+                            <div class="about-card-text">lorem ipsum</div>
+                        </div>
+                        <div class="about-number-card">
+                            <div class="about-number">150+</div>
+                            <div class="about-card-text">lorem ipsum</div>
+                        </div>
+                        <div class="about-number-card">
+                            <div class="about-number">80+</div>
+                            <div class="about-card-text">lorem ipsum</div>
+                        </div>
+                    </div>
+                    <div class="about-right-texts">
+                        <p c>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                            incididunt
+                            ut
+                            labore et dolore magna
+                            aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna
+                            aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna
+                            aliqua.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="our-project">
+        <div class="container-left">
+            <div class="our-project-content">
+                <div class="ourpr-image-area image-area row-reverse">
+                    <div class="column-3-images">
+                        <div class="column-3-image"></div>
+                        <div class="column-3-image"></div>
+                        <div class="column-3-image"></div>
+                    </div>
+                    <div class="grand-image">
+                        <div class="search-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M26.3576 22.8743C29.4192 18.5784 29.0229 12.5759 25.1688 8.72183C20.873 4.42606 13.9082 4.42606 9.61245 8.72183C5.31668 13.0176 5.31668 19.9824 9.61245 24.2782C13.4665 28.1323 19.469 28.5285 23.7649 25.467L34.2433 35.9454L36.8361 33.3527L26.3576 22.8743ZM22.5761 11.3145C25.4399 14.1784 25.4399 18.8216 22.5761 21.6854C19.7122 24.5493 15.069 24.5493 12.2052 21.6854C9.34133 18.8216 9.34133 14.1784 12.2052 11.3145C15.069 8.45071 19.7122 8.45071 22.5761 11.3145Z"
+                                    fill="#2E3A59" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="ourpr-text-area text-area">
+                    <h4 class="section-title ourpr-title">
+                        Our Project
+                    </h4>
+                    <p class="section-text ourpr-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="ourpr-cards">
+                        <div class="ourpr-card">
+                            <div class="ourpr-image "><svg xmlns="http://www.w3.org/2000/svg" width="113" height="100"
+                                    viewBox="0 0 113 100" fill="none">
+                                    <path
+                                        d="M109.375 12.5C111.102 12.5 112.5 11.1016 112.5 9.375V3.125C112.5 1.39844 111.102 0 109.375 0H3.125C1.39844 0 0 1.39844 0 3.125V9.375C0 11.1016 1.39844 12.5 3.125 12.5H6.24609V87.5H3.125C1.39844 87.5 0 88.8984 0 90.625V96.875C0 98.6016 1.39844 100 3.125 100H50V84.375C50 82.6562 51.4062 81.25 53.125 81.25H59.375C61.0938 81.25 62.5 82.6562 62.5 84.375V100H109.375C111.102 100 112.5 98.6016 112.5 96.875V90.625C112.5 88.8984 111.102 87.5 109.375 87.5H106.25V12.5H109.375ZM50 21.25C50 20 51.25 18.75 52.5 18.75H60C61.25 18.75 62.5 20 62.5 21.25V28.75C62.5 30 61.25 31.25 60 31.25H52.5C51.25 31.25 50 30 50 28.75V21.25ZM50 40C50 38.75 51.25 37.5 52.5 37.5H60C61.25 37.5 62.5 38.75 62.5 40V47.5C62.5 48.75 61.25 50 60 50H52.5C51.25 50 50 48.75 50 47.5V40ZM25 21.25C25 20 26.25 18.75 27.5 18.75H35C36.25 18.75 37.5 20 37.5 21.25V28.75C37.5 30 36.25 31.25 35 31.25H27.5C26.25 31.25 25 30 25 28.75V21.25ZM35 50H27.5C26.25 50 25 48.75 25 47.5V40C25 38.75 26.25 37.5 27.5 37.5H35C36.25 37.5 37.5 38.75 37.5 40V47.5C37.5 48.75 36.25 50 35 50ZM37.5 75C37.5 64.6445 45.8945 56.25 56.25 56.25C66.6055 56.25 75 64.6445 75 75H37.5ZM87.5 47.5C87.5 48.75 86.25 50 85 50H77.5C76.25 50 75 48.75 75 47.5V40C75 38.75 76.25 37.5 77.5 37.5H85C86.25 37.5 87.5 38.75 87.5 40V47.5ZM87.5 28.75C87.5 30 86.25 31.25 85 31.25H77.5C76.25 31.25 75 30 75 28.75V21.25C75 20 76.25 18.75 77.5 18.75H85C86.25 18.75 87.5 20 87.5 21.25V28.75Z"
+                                        fill="#00272B" />
+                                </svg></div>
+                            <div class="box-text-area mt32">
+                                <div class="box-head width100">Service
+                                    Ipsum</div>
+                                <div class="box-text text-left max-width">Lorem
+                                    ipsum dolor sit amet, sint est
+                                    consectetur
+                                    adipiscing elit.</div>
+                            </div>
+                        </div>
+                        <div class="ourpr-card">
+                            <div class="ourpr-image "><svg xmlns="http://www.w3.org/2000/svg" width="125" height="100"
+                                    viewBox="0 0 125 100" fill="none">
+                                    <g clip-path="url(#clip0_106_3719)">
+                                        <path
+                                            d="M0 43.75V96.875C0 98.6015 1.39844 100 3.125 100H18.75V37.5H6.25C2.79883 37.5 0 40.2988 0 43.75ZM70.3125 34.375H65.625V26.5625C65.625 25.6992 64.9258 25 64.0625 25H60.9375C60.0742 25 59.375 25.6992 59.375 26.5625V39.0625C59.375 39.9257 60.0742 40.625 60.9375 40.625H70.3125C71.1758 40.625 71.875 39.9257 71.875 39.0625V35.9375C71.875 35.0742 71.1758 34.375 70.3125 34.375ZM97.2168 21.8828L65.9668 1.04878C64.94 0.364861 63.7338 -6.10352e-05 62.5 -6.10352e-05C61.2662 -6.10352e-05 60.06 0.364861 59.0332 1.04878L27.7832 21.8828C26.9272 22.4534 26.2254 23.2265 25.7399 24.1335C25.2544 25.0405 25.0002 26.0532 25 27.082V100H50V71.875C50 70.1484 51.3984 68.75 53.125 68.75H71.875C73.6016 68.75 75 70.1484 75 71.875V100H100V27.0839C100 24.9941 98.9551 23.041 97.2168 21.8828ZM62.5 50C53.8711 50 46.875 43.0039 46.875 34.375C46.875 25.746 53.8711 18.75 62.5 18.75C71.1289 18.75 78.125 25.746 78.125 34.375C78.125 43.0039 71.1289 50 62.5 50ZM118.75 37.5H106.25V100H121.875C123.602 100 125 98.6015 125 96.875V43.75C125 40.2988 122.201 37.5 118.75 37.5Z"
+                                            fill="#00272B" />
+                                    </g>
+                                    <defs>
+                                        <clippath id="clip0_106_3719">
+                                            <rect width="125" height="100" fill="white" />
+                                        </clippath>
+                                    </defs>
+                                </svg></div>
+                            <div class="box-text-area mt32 ">
+                                <div class="box-head width100">Service
+                                    Ipsum</div>
+                                <div class="box-text text-left max-width">Lorem
+                                    ipsum dolor sit amet, sint est
+                                    consectetur
+                                    adipiscing elit.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="working-process-1">
+        <div class="container">
+            <h5 class="section-title text-center">Working Process</h5>
+            <p class="section-text wp-text text-center">
+                Nulla lorem mollit cupidatat irure. Laborum magna nulla
+                duisullamco cillum <br>
+                dolor. Voluptate exercitation incididunt aliquip deserunt.
+            </p>
+            <div class="wp-cards mt100">
+                <div class="wpcard">
+                    <div class="box-number">01</div>
+                    <div class="box-text-area mt32">
+                        <div class="box-head width100">Service Ipsum</div>
+                        <div class="box-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod
+                            tempor.</div>
+                    </div>
+                </div>
+                <div class="wpcard">
+                    <div class="box-number">01</div>
+                    <div class="box-text-area mt32">
+                        <div class="box-head width100 ">Service Ipsum</div>
+                        <div class="box-text ">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod
+                            tempor.</div>
+                    </div>
+                </div>
+                <div class="wpcard">
+                    <div class="box-number">01</div>
+                    <div class="box-text-area mt32">
+                        <div class="box-head width100">Service Ipsum</div>
+                        <div class="box-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod
+                            tempor.</div>
+                    </div>
+                </div>
+                <div class="wpcard">
+                    <div class="box-number">01</div>
+                    <div class="box-text-area mt32">
+                        <div class="box-head width100">Service Ipsum</div>
+                        <div class="box-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod
+                            tempor.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="frequenly">
+        <div class="container">
+            <div class="frequenly-boxs">
+                <h4 class="freauenly-title section-title ">frequenly
+                    ask</h4>
+                <div class="frequenly-box">
+                    <div class="frequenly-box-title-area">
+                        <p class="frequenly-box-title">What Is Architecture
+                        </p>
+                        <p class="frequenly-_"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 20 20" fill="none">
+                                <path d="M15.8327 10.8333H4.16602V9.16666H15.8327V10.8333Z" fill="#2E3A59" />
+                            </svg></p>
+                    </div>
+                    <div class="frequenly-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation.
+                    </div>
+                </div>
+                <div class="frequenly-box">
+                    <div class="frequenly-box-title-area">
+                        <p class="frequenly-box-title">Getting Started </p>
+                        <p class="frequenly-_"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M15.8327 10.8333H10.8327V15.8333H9.16602V10.8333H4.16602V9.16666H9.16602V4.16666H10.8327V9.16666H15.8327V10.8333Z"
+                                    fill="#2E3A59" />
+                            </svg></p>
+                    </div>
+
+                </div>
+                <div class="frequenly-box">
+                    <div class="frequenly-box-title-area">
+                        <p class="frequenly-box-title">How to Choice Pricing
+                            Plan </p>
+                        <p class="frequenly-_"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M15.8327 10.8333H10.8327V15.8333H9.16602V10.8333H4.16602V9.16666H9.16602V4.16666H10.8327V9.16666H15.8327V10.8333Z"
+                                    fill="#2E3A59" />
+                            </svg></p>
+                    </div>
+
+                </div>
+                <div class="frequenly-box">
+                    <div class="frequenly-box-title-area">
+                        <p class="frequenly-box-title">How to get Discount
+                        </p>
+                        <p class="frequenly-_"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M15.8327 10.8333H10.8327V15.8333H9.16602V10.8333H4.16602V9.16666H9.16602V4.16666H10.8327V9.16666H15.8327V10.8333Z"
+                                    fill="#2E3A59" />
+                            </svg></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="logo mt100">
+                <div class="logo-img-area">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="50" viewBox="0 0 44 50" fill="none">
+                        <g clip-path="url(#clip0_106_3799)">
+                            <path
+                                d="M42.5781 46.875H40.625V2.34375C40.625 1.04932 39.5757 0 38.2812 0H5.46875C4.17432 0 3.125 1.04932 3.125 2.34375V46.875H1.17188C0.524707 46.875 0 47.3997 0 48.0469V50H43.75V48.0469C43.75 47.3997 43.2253 46.875 42.5781 46.875ZM12.5 7.42188C12.5 6.77471 13.0247 6.25 13.6719 6.25H17.5781C18.2253 6.25 18.75 6.77471 18.75 7.42188V11.3281C18.75 11.9753 18.2253 12.5 17.5781 12.5H13.6719C13.0247 12.5 12.5 11.9753 12.5 11.3281V7.42188ZM12.5 16.7969C12.5 16.1497 13.0247 15.625 13.6719 15.625H17.5781C18.2253 15.625 18.75 16.1497 18.75 16.7969V20.7031C18.75 21.3503 18.2253 21.875 17.5781 21.875H13.6719C13.0247 21.875 12.5 21.3503 12.5 20.7031V16.7969ZM17.5781 31.25H13.6719C13.0247 31.25 12.5 30.7253 12.5 30.0781V26.1719C12.5 25.5247 13.0247 25 13.6719 25H17.5781C18.2253 25 18.75 25.5247 18.75 26.1719V30.0781C18.75 30.7253 18.2253 31.25 17.5781 31.25ZM25 46.875H18.75V38.6719C18.75 38.0247 19.2747 37.5 19.9219 37.5H23.8281C24.4753 37.5 25 38.0247 25 38.6719V46.875ZM31.25 30.0781C31.25 30.7253 30.7253 31.25 30.0781 31.25H26.1719C25.5247 31.25 25 30.7253 25 30.0781V26.1719C25 25.5247 25.5247 25 26.1719 25H30.0781C30.7253 25 31.25 25.5247 31.25 26.1719V30.0781ZM31.25 20.7031C31.25 21.3503 30.7253 21.875 30.0781 21.875H26.1719C25.5247 21.875 25 21.3503 25 20.7031V16.7969C25 16.1497 25.5247 15.625 26.1719 15.625H30.0781C30.7253 15.625 31.25 16.1497 31.25 16.7969V20.7031ZM31.25 11.3281C31.25 11.9753 30.7253 12.5 30.0781 12.5H26.1719C25.5247 12.5 25 11.9753 25 11.3281V7.42188C25 6.77471 25.5247 6.25 26.1719 6.25H30.0781C30.7253 6.25 31.25 6.77471 31.25 7.42188V11.3281Z"
+                                fill="#00272B" />
+                        </g>
+                        <defs>
+                            <clippath id="clip0_106_3799">
+                                <rect width="43.75" height="50" fill="white" />
+                            </clippath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="logo-text-area">
+                    <h5 class="logo-title color-blue">ARCH.</h5>
+                    <p class="logo-text color-blue">Interior &
+                        Architectur</p>
+                </div>
+            </div>
+            <div class="footer-main">
+                <div class="footer-box">
+                    <div class="f-b-head">Usefull Link</div>
+                    <ul class="main-ul">
+                        <li><a href="about.html">> &nbspAbout As</a></li>
+                        <li><a href="ourteams.html">> &nbspOur Teams</a></li>
+                        <li><a href="price.html">> &nbspPricing Plans</a></li>
+                        <li><a href="blog.html">> &nbspBlog</a></li>
+                        <li><a href="404.html">> &nbsp404 Page</a></li>
+                        <li><a href="services.html">> &nbspService</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <div class="f-b-head">Head Office</div>
+                    <ul>
+                        <li>4517 Washington Ave. Manchester, Kentucky
+                            39495</li>
+                        <li>deanna.curtis@example.com</li>
+                        <li>(671) 555-0110</li>
+
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <div class="f-b-head">Opening Hour</div>
+                    <ul>
+                        <li>Mon - Sat : 8:00 - 17:00</li>
+                        <li>Sun : Closed</li>
+                    </ul>
+                    <div class="footer-media-links">
+                        <div class="footer-media-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <g clip-path="url(#clip0_106_3793)">
+                                    <path
+                                        d="M10.7625 14.1748C9.85 13.9936 9 14.7311 9 15.6623V18.8123C9 19.4498 9.44375 19.9623 10.0437 20.1873C11.1812 20.6123 12 21.7123 12 22.9998C12 24.6561 10.6562 25.9998 9 25.9998C7.34375 25.9998 6 24.6561 6 22.9998V7.49981C6 6.66856 5.33125 5.99981 4.5 5.99981H1.5C0.66875 5.99981 0 6.66856 0 7.49981V22.9998C0 28.5936 5.13125 33.0123 10.9375 31.7936C14.3375 31.0811 17.0813 28.3311 17.7938 24.9373C18.8813 19.7561 15.4812 15.1123 10.7625 14.1748ZM13.0625 -0.000194213C12.4875 -0.0314442 12 0.424806 12 0.999806V2.97481C12 3.50606 12.4125 3.94356 12.9375 3.96856C21.025 4.40606 27.525 10.9686 27.9937 19.0623C28.025 19.5873 28.4625 19.9998 28.9875 19.9998H30.9937C31.5688 19.9998 32.025 19.5123 31.9937 18.9373C31.4625 8.73731 23.2625 0.537306 13.0625 -0.000194213ZM13.0813 5.99981C12.5 5.95606 12 6.41856 12 7.00606V9.01231C12 9.5373 12.4062 9.96856 12.925 10.0061C17.725 10.3998 21.55 14.2686 21.9813 19.0811C22.0312 19.5998 22.4563 19.9998 22.975 19.9998H24.9875C25.5687 19.9998 26.0375 19.4998 25.9937 18.9186C25.4688 12.0373 19.9625 6.53106 13.0813 5.99981Z"
+                                        fill="#00272B" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_106_3793">
+                                        <rect width="32" height="32" fill="white" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="footer-media-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 28 32"
+                                fill="none">
+                                <g clip-path="url(#clip0_106_3795)">
+                                    <path
+                                        d="M8.00506 25.9975C8.00506 28.208 6.21306 30 4.0025 30C1.79194 30 0 28.208 0 25.9975C0 23.7869 1.792 21.9949 4.00256 21.9949C6.21313 21.9949 8.00506 23.787 8.00506 25.9975ZM18.9838 28.9506C18.4617 19.2881 10.7222 11.5389 1.04944 11.0162C0.4785 10.9853 0 11.4441 0 12.0158V15.0202C0 15.5461 0.405625 15.9871 0.930438 16.0213C7.91994 16.4765 13.5225 22.0651 13.9787 29.0695C14.0129 29.5943 14.4539 30 14.9798 30H17.9841C18.5559 30 19.0147 29.5215 18.9838 28.9506ZM27.9994 28.9686C27.4747 14.3548 15.7166 2.52784 1.03144 2.00065C0.467063 1.9804 0 2.43634 0 3.00102V6.00527C0 6.54434 0.427188 6.98309 0.965813 7.00521C12.9145 7.49515 22.505 17.0875 22.9949 29.0343C23.0169 29.5729 23.4557 30.0001 23.9948 30.0001H26.9991C27.5637 30 28.0196 29.533 27.9994 28.9686Z"
+                                        fill="#00272B" />
+                                </g>
+                                <defs>
+                                    <clippath id="clip0_106_3795">
+                                        <rect width="28" height="32" fill="white" />
+                                    </clippath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="footer-media-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 28 32"
+                                fill="none">
+                                <path
+                                    d="M15.5 10.5V21C15.5 21.5525 15.9475 22 16.5 22H19.5C20.0525 22 20.5 21.5525 20.5 21V10.5C20.5 5.80562 16.6944 2 12 2H1.5C0.671875 2 0 2.67125 0 3.5V29C0 29.5525 0.4475 30 1 30H4C4.5525 30 5 29.5525 5 29V7H12C13.9331 7 15.5 8.56687 15.5 10.5ZM27 2H24C23.4475 2 23 2.4475 23 3V21.5C23 23.4331 21.4331 25 19.5 25H12.5V11C12.5 10.4475 12.0525 10 11.5 10H8.5C7.9475 10 7.5 10.4475 7.5 11V28.5C7.5 29.3281 8.17188 30 9 30H19.5C24.1944 30 28 26.1944 28 21.5V3C28 2.4475 27.5525 2 27 2Z"
+                                    fill="#00272B" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyrighy-text">Copyright © 2020. All right
+                reserved</div>
+        </div>
+    </div>
+
+    <!-- </body> -->
+
+    <!-- </html> -->

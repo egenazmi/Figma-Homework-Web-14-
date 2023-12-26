@@ -1,0 +1,721 @@
+/*
+
+COLORS:
+Primary : #00272B
+White   : #FEFEFE
+Gray    : #C4C4C4
+Text    : #6F6D71
+Copyright:#DDD
+
+FONTS:
+font-family: 'Raleway',sans-serif;
+font-family: Roboto; 
+
+General Styles Starts Here */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+
+.container-right {
+    max-width: 1545px;
+    width: 100%;
+    margin-left: 358px;
+}
+
+.container-left {
+    max-width: 1545px;
+    width: 100%;
+    margin-right: 375px;
+}
+
+.section-title {
+    color: var(--Solid-00272B, #00272b);
+    font-family: Raleway;
+    font-size: 50.521px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 65.677px */
+    text-transform: uppercase;
+}
+
+.section-text {
+    color: var(--Solid-6F6D71, #6f6d71);
+
+    /* Roboto / P */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+}
+
+.box-number {
+    color: var(--Solid-FEFEFE, #fefefe);
+    font-family: Roboto;
+    font-size: 37.897px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--Solid-00272B, #00272b);
+    width: 69px;
+    height: 69px;
+    padding: 13px;
+}
+
+.box-subhead {
+    color: var(--Solid-6F6D71, #6f6d71);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    width: 160px;
+    height: 21px;
+    /* 20.8px */
+}
+
+.box-head {
+    color: var(--Solid-00272B, #00272b);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    width: 160px;
+    height: 42px;
+    /* 20.8px */
+    text-transform: uppercase;
+    height: fit-content;
+}
+
+.box-text {
+    color: var(--Solid-6F6D71, #6f6d71);
+    text-align: center;
+    /* Roboto / P */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    max-width: 223px;
+    /* 27.2px */
+}
+
+.image-area {
+    width: 845px;
+    height: 770px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.column-3-images {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.column-3-image {
+    background-color: #c4c4c4;
+    width: 170px;
+    height: 170px;
+}
+
+.grand-image {
+    background-color: #c4c4c4;
+    height: 770px;
+    width: 645px;
+    position: relative;
+}
+
+.search-box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    right: 0;
+    background-color: #fefefe;
+    padding: 53px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wp-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.wpcard {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.gap12 {
+    gap: 12;
+}
+
+.width100 {
+    width: 100% !important;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.mt32 {
+    margin-top: 32px !important;
+}
+
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.max-width {
+    max-width: 100%;
+}
+
+.background-blue {
+    background-color: #00272b !important;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.color-blue {
+    color: #00272b !important;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.mt187 {
+    margin-top: 187px;
+}
+
+.roboto {
+    font-family: Roboto !important;
+}
+
+/*-------- Navbar Styles Starts Here */
+.nav {
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+    align-items: center;
+    background-color: #c4c4c4;
+}
+
+.logo {
+    display: flex;
+    width: 243px;
+    height: 80px;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-img-area svg {
+    width: 43.75px;
+    height: 50px;
+}
+
+.logo-text-area {
+    padding: 10px;
+}
+
+.logo-title {
+    color: var(--Solid-FEFEFE, #fefefe);
+    font-family: Raleway;
+    font-size: 28.433px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 16.065px;
+    text-transform: uppercase;
+}
+
+.logo-text {
+    color: var(--Solid-FEFEFE, #fefefe);
+    /* Raleway / P */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+}
+
+.nav-links {
+    width: 806px;
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-link {
+    padding: 32px 6px;
+}
+
+.nav-link a {
+    color: var(--Solid-FEFEFE, #fefefe);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    text-transform: uppercase;
+}
+
+.phone-area {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.phone-area svg {
+    width: 35px;
+    height: 35px;
+}
+
+.phone-text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.phone-text {
+    color: var(--Solid-FEFEFE, #fefefe);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.phone-number {
+    color: var(--Solid-FEFEFE, #fefefe);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+/*-------- Navbar Styles Ends Here */
+
+/*-------- Banner Styles Starts Here */
+#banner {
+    height: 600px;
+    position: relative;
+    background-color: #c4c4c4;
+}
+
+.page-title {
+    color: var(--Solid-00272B, #00272b);
+    font-family: Raleway;
+    font-size: 50.521px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 65.677px */
+    text-transform: uppercase;
+    padding-top: 144px;
+}
+
+.page-subtitle {
+    color: var(--Solid-00272B, #00272b);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.banner-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.banner-card {
+    width: 270px;
+    height: 300px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* ------- Banner Styles Ends Here */
+
+/*-------- Blog Left Styles Starts Here */
+.blog-content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 250px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.blog-img {
+    width: 770px;
+    height: 434px;
+    background: #C4C4C4;
+}
+
+.blog-title {
+    color: var(--Solid-00272B, #00272B);
+    font-family: Raleway;
+    font-size: 28.433px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.blog-text {
+    color: var(--Solid-6F6D71, #6F6D71);
+
+    /* Roboto / P */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+    width: 770px;
+}
+
+.read-more-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2px;
+    align-items: center;
+
+}
+
+.read-more {
+    color: var(--Solid-00272B, #00272B);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    text-transform: uppercase;
+}
+
+.plus {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+}
+
+/*-------- Blog Left Styles Ends Here */
+
+/*-------- Blog Right Styles Starts Here */
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.right-side-title {
+    color: var(--Solid-00272B, #00272B);
+    font-family: Raleway;
+    font-size: 21.328px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 470px;
+}
+
+.recent-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 370px;
+    height: 95px;
+    align-items: center;
+}
+
+.post-img {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    background: #C4C4C4;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.post-date-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.calender {
+    width: 16px;
+    height: 16px;
+}
+
+.date {
+    color: var(--Solid-6F6D71, #6F6D71);
+
+    /* Roboto / P */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+}
+
+.post-title {
+    color: var(--Solid-00272B, #00272B);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    text-transform: uppercase;
+}
+
+.trend-topics {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.trend-post {
+    height: 69px;
+}
+
+.post-number {
+    width: 69px;
+    height: 69px;
+    flex-shrink: 0;
+    color: var(--Solid-00272B, #00272B);
+    font-family: Roboto;
+    font-size: 37.897px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 12px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tags-row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: first baseline;
+}
+
+.tag {
+    color: var(--Solid-6F6D71, #6F6D71);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    border-radius: 2px;
+    background: var(--Solid-F4F4F4, #F4F4F4);
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: fit-content;
+    /* border: 1px solid rebeccapurple; */
+}
+
+/*-------- Blog Right Styles Ends Here */
+
+
+/*-------- Footer  Styles Stats Here */
+#footer {
+    margin-top: 250px;
+}
+
+#footer .container {
+    display: flex;
+    gap: 71.25px;
+}
+
+.footer-main {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-box {
+    width: 270px;
+}
+
+.f-b-head {
+    color: var(--Solid-00272B, #00272b);
+    font-family: Raleway;
+    font-size: 21.328px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 27.726px */
+    text-transform: uppercase;
+    margin-top: 119px;
+}
+
+.footer-box ul {
+    margin-top: 30px;
+}
+
+.footer-box .main-ul li a {
+    color: var(--Solid-00272B, #00272b);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer-box ul li {
+    color: var(--Solid-6F6D71, #6f6d71);
+
+    /* Roboto / P */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+}
+
+.footer-media-links {
+    display: flex;
+    gap: 35px;
+    margin-top: 25px;
+}
+
+/*-------- Footer Styles Ends Here */
+
+/*-------- Copyright Styles Stars Here */
+.copyright {
+    background: var(--Solid-DDDDDD, #ddd);
+    height: 100px;
+    margin-top: 140px;
+}
+
+.copyrighy-text {
+    color: var(--Solid-00272B, #00272b);
+
+    /* Footer */
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    letter-spacing: 0.54px;
+    padding: 34px 0;
+    text-align: center;
+}
+
+/*-------- Copyright Styles Ends Here */
